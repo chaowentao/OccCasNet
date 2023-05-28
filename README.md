@@ -35,11 +35,11 @@ CUDA              11.2
     - **'LF_output/XXX_ckp/train_iterXXXXX.jpg'**
     - **'LF_output/XXX_ckp/val_iterXXXXX.jpg'**.
 
-# Evaluate SubFocal
+# Evaluate OccCasNet
 - Run `python evaluation_occcas.py`
   - `path_weight='LF_checkpoint/SubFocal_sub_0.5_js_0.1_ckp/iter0010_valmse0.768_bp1.93.hdf5'`
 
-# Submit SubFocal
+# Submit OccCasNet
 - Run `python submission_occcas.py`
   - `path_weight='LF_checkpoint/SubFocal_sub_0.5_js_0.1_ckp/iter0010_valmse0.768_bp1.93.hdf5'`
 <!-- # Citation
